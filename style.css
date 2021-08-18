@@ -1,0 +1,75 @@
+body{
+    overflow: hidden;
+    margin: 0 !important;
+}
+.fas{
+    color: rgb(145, 141, 141);
+}
+.box{
+    border-radius: 10px;
+    overflow: scroll !important;
+}
+.boxer{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.boxer:hover{
+    background-color: rgb(226, 224, 224) !important;
+}
+img{
+    border-radius: 50%;
+}
+input{
+    width: 300px;
+    border-radius: 5px; 
+    outline: none;
+    margin: 10px 0 20px 0;
+}
+.background{
+    background-image: url(/image/telegram.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.input1{
+    /* margin-top: 255px; */
+    display: flex;
+}
+.input2{
+    outline: none;
+    border: none;
+}
+.telegram{
+    border-radius: 8px;
+    margin-top: -2px;
+    margin-bottom: 30px;
+    position: relative;
+    top: 20px;
+}
+.input::placeholder{
+    color: #fff;
+}
+.time{
+    padding: 4px 40px;
+    border-radius: 15px;
+    margin-left: 400px;
+    color: #fff;
+    background-color: #7B9968;
+    position: relative;
+    /* top: 30px; */
+}
+.top{
+    width: 911px;
+    margin-left: -12px;
+}
+.something{
+    display: none;
+}
+.header__checkbox:checked + .something{
+    display: block;
+    height: 100vh;
+    margin-top: -100px;
+}
+.fas{
+    margin-left: -30px;
+}
